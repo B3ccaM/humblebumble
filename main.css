@@ -1,0 +1,70 @@
+.header {
+  background-color: #4b4c53;
+  text-align: center;
+  padding: 20px;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #283A84;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+
+  nav{
+  	width:100%;
+  	text-align: center;
+  }
+
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  nav li{
+  	display:inline;
+
+  }
+
+
+  footer{
+  	text-align: center;
+  	clear:both;
+  	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+  }
+
+  nav a:link {
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color:rgba(104,104,104,.75);
+    text-decoration: none;
+    margin-right: 20px;
+
+  }
+
+  nav a:visited {
+
+  }
+
+  nav a:hover {
+    color:rgba(104,104,104,1);
+  }
+
+  nav a:active {
+    text-decoration: underline;
